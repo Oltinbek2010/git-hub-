@@ -43,3 +43,46 @@ body {
     border-radius: 6px;
     padding: 0px 3px;
 }
+
+header {
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 2px #C4CDD5;
+}
+
+.logo {
+    width: 50.4px;
+    height: 42px;
+    margin-right: 101.5px;
+}
+
+header ul {
+    font-weight: 300;
+    color: #161C24;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+ul .ab {
+    margin-right: 283.1px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #161C24;
+    font-weight: 300;
+    font-size: 20px;
+}
