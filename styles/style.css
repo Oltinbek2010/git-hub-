@@ -49,6 +49,7 @@ header {
     display: flex;
     align-items: center;
     box-shadow: 0px 2px 2px #C4CDD5;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -59,7 +60,6 @@ header {
 
 header ul {
     font-weight: 300;
-    color: #161C24;
     font-size: 18px;
     list-style: none;
     display: flex;
@@ -70,6 +70,7 @@ header ul {
 ul a {
     text-decoration: none;
     transition: all 0.5s;
+    color: #161C24;
 }
 
 ul a:hover {
@@ -77,12 +78,24 @@ ul a:hover {
 }
 
 ul .ab {
-    margin-right: 283.1px;
+    margin-right: 263.1px;
+}
+
+.contact {
+    display: flex;
 }
 
 .contact a {
     text-decoration: none;
     color: #161C24;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0;
+    margin-right: 30px;
+    display: flex;
+    gap: 8px;
+}
+
+.Shop {
+    align-items: center;
 }
