@@ -118,4 +118,19 @@ ul .ab {
     color: #000000;
     font-weight: 600;
     font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.main h3 span {
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.top {
+    margin-bottom: 32px;
+}
+
+.first {
+    margin-right: 30px;
 }
