@@ -5,11 +5,33 @@
 }
 
 body {
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Display";
+    font-size: 16px;
 }
 
 .container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+}
+
+.over-header {
+    background-color: #454F5B;
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+}
+
+.over-header p {
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-left: 452px;
+    margin-right: 197px;
+}
+
+.over-header a {
+    color: #FFFFFF;
+    letter-spacing: 12%;
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
 }
