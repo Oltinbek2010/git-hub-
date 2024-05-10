@@ -34,4 +34,12 @@ body {
     letter-spacing: 12%;
     text-decoration: none;
     border-bottom: 1px solid #FFFFFF;
+    transition: all 0.5s;
+}
+
+.over-header a:hover {
+    background-color: #fff;
+    color: #454f5b;
+    border-radius: 6px;
+    padding: 0px 3px;
 }
