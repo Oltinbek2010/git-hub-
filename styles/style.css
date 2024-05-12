@@ -18,14 +18,20 @@ body {
 p{
     background-color: rgb(255, 255, 255);
 }
+.head{
+    position: fixed;
+    background-color: #fff;
+}
 .over-header {
     background-color: #454F5B;
     display: flex;
     align-items: center;
     padding: 8px 0px;
+    width: 100%;
 }
 
 .over-header p {
+    background-color: #454F5B;
     color: #FFFFFF;
     font-weight: 500;
     margin-left: 452px;
@@ -48,6 +54,7 @@ p{
 }
 
 header {
+    width: 100%;
     padding: 20px 100px;
     display: flex;
     align-items: center;
@@ -150,12 +157,14 @@ ul .ab {
     margin-top: 30px;
     list-style: none;
     text-decoration: none;
+    align-items: center;
 }
 
 ul .num{
     padding: 6px 11px;
     border-radius: 2px;
     transition: all 0.5s;
+    margin-bottom: 100px;
 
 }
 
@@ -167,9 +176,30 @@ ul .num:hover{
 ul .lr{
     color: #161C24;
     transition: all 0.5s;
+    margin-top: -100px;
 }
 
 ul .lr:hover{
     color: #C4CDD5;
     text-decoration: none;
+}
+
+.second-main img{
+    margin-left: 100px;
+    margin-bottom: 96px;
+}
+
+.third img{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.top-f{
+    background-color: #F2F8FF;
+    padding: 64px 346px 56px;
+}
+
+footer{
+    padding: 55px 81px 25px 100px;
+    background-color: #0D2436;
 }
